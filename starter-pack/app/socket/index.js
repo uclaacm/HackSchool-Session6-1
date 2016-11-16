@@ -35,8 +35,8 @@ module.exports = (io, app) => {
      *          users: [],
      *          history: []  
      *        }
-     *      emit the event 'chatRoomList' with `allrooms` to the creator 
-     *      emit the event 'chatRoomList' with `allrooms` to everyone   
+     *      emit the event 'chatRoomsList' with `allrooms` to the creator 
+     *      emit the event 'chatRoomsList' with `allrooms` to everyone   
      */
 
 
@@ -65,7 +65,7 @@ module.exports = (io, app) => {
      * TODO #4
      * Handle the 'disconnect' event on socket
      *   get the room returned by calling utils.removeUserFromRoom(allrooms, socket)
-     *   emit the event 'updateUsersList' on socket.to(data.roomID) with room.users
+     *   emit the event 'updateRoom' on socket.to(room.roomID) with the room from above
      */
 
     
