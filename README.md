@@ -1,2 +1,2 @@
-# HackSchool-Session6
-Hack School Session 6 - The Final Project
+# HackSchool-Session7
+Hack School Session 7 - The Final Project
